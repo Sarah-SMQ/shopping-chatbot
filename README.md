@@ -11,8 +11,13 @@ The system fetches product data from APIs, processes it, and presents it in an e
 - Generate AI responses summarizing product data.
 - Store chat sessions with structured data for evaluation.
 
-## Installation and Running
-```bash
+## Environment Variables
+Create a `.env` file in the project root and add your API keys:
+
+```env
+SERPAPI_KEY=your_serpapi_key_here
+GROQ_KEY=your_groq_key_here
+```
 # Create and activate virtual environment
 python -m venv .venv
 # On Windows
@@ -22,11 +27,6 @@ source .venv/bin/activate
 
 # Install required packages
 python -m pip install -r requirements.txt
-
-
-# Set up environment variables
-SERPAPI_KEY=your_serpapi_key
-GROQ_KEY=your_groq_key
 
 # Start backend
 uvicorn shopping_app:app --reload
@@ -39,5 +39,3 @@ python shopping_app.py
 
 # Run tests using pytest
 pytest -v shopping_app.py
-
-```
