@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Data files
+data_shopping.json
+all_chats_unified.json
+data_shopping_eval*.xlsx
+
+# Jupyter notebooks (نسخ احتياطية أو تجارب)
+*.ipynb
+* - Copy.ipynb
+
+# Python scripts نسخ احتياطية أو تجارب
+* - Copy.py
+re_evaluate.py
+shopping_app - Copy.py
+
+# Project reports
+*.odt
+*.pdf
