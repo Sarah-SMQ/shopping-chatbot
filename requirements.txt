@@ -1,0 +1,11 @@
+# Core libraries
+requests==2.31.0
+streamlit==1.29.0
+fastapi==0.109.0
+uvicorn==0.22.0
+
+python-dotenv==1.1.1
+langdetect==1.0.9
+
+# Testing libraries
+pytest==8.4.2
